@@ -1,11 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="icon" type="image/png" href="../images/icon/favicon.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <style>
+        * {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.userpic{
+	height: 40px;
+	width: 50px;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 1rem 0px;
+	background-color: #fff;
+	height: 6rem;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.name {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	margin: 0rem 2rem;
+}
+
+.search_bar {
+	padding: 8px;
+	padding-left: 1.2rem;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	width: 40%;
+	height: 3rem;
+	border-radius: 10px;
+	border-radius: 50px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	font-size: 15px;
+}
+
+.nav-links {
+	list-style: none;
+	display: flex;
+	gap: 3rem;
+}
+
+.nav-links li a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+.nav-links li {
+	padding: 0.5rem;
+}
+
+.nav-links li:hover {
+	background-color: #ccc;
+	border-radius: 10px;
+}
+    </style>
 </head>
 <body>
     <div class="navbar">
